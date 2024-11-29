@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+    <style>
+        table{
+            width: 100%;
+            /* border-collapse:collapse; */
+            text-align: center;
+            /* color: #fff; */
+        }
+        th, td {
+            border: solid 2px black;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color:#b4b0b0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Link: https://docs.emmet.io/cheat-sheet/ -->
+
+    <h1>Column wise Table headings</h1>
+
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india@bharat.com</td>
+        </tr>
+        <tr>
+            <td>United States of America</td>
+            <td>USA</td>
+            <td>usa@.in</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>JP</td>
+            <td>japan@.in</td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>CN</td>
+            <td>china@.in</td>
+        </tr>
+    </table>
+
+<h1>Row wise Table Headings</h1>
+    <table>
+        <tr>
+            <th>Country</th>
+            <td>India</td>
+            <td>United States of America</td>
+            <td>Japan</td>
+            <td>China</td>
+        </tr>
+        <tr>
+            <th>Country Code</th>
+            <td>IN</td>
+            <td>USA</td>
+            <td>JP</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>india@bharat.com</td>
+            <td>usa@.in</td>
+            <td>japan@.in</td>
+            <td>china@.in</td>
+        </tr>
+    </table>
+</body>
+</html>
