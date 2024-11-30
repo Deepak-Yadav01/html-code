@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe Class Id</title>
+    <style>
+        .para {
+            background-color: violet;
+        }
+        #FirstHeading{
+            background-color: greenyellow;
+        }
+        .container{
+            border: dotted 2px hotpink;
+            background-color: beige;
+        }
+    </style>
+    <style>
+        table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 6px;
+  text-align: center;
+}
+
+.weekdays {
+  background-color: #d7d9f2;
+}
+
+.weekend {
+  background-color: #ffe8d4;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut doloribus reprehenderit, doloremque ad excepturi quibusdam inventore voluptates deserunt ex sapiente.re quis eligendi commodi impedit adipisci dolor suscipit consectetur accusamus amet cumque</p>
+        <p id="FirstHeading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, excepturi.</p>
+        <h1 class="para" id="FirstHeading">Test1</h1>
+        <h2>Test2</h2>
+    </div>
+
+    <br/>
+
+
+    <!-- <iframe src="" frameborder="0"></iframe> -->
+
+    <table>
+        <caption>
+          Personal weekly activities
+        </caption>
+        <colgroup span="3" class="weekdays"></colgroup>
+        <colgroup span="5" class="weekend"></colgroup>
+        <tr>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+        <tr>
+          <td>Clean room</td>
+          <td>Football training</td>
+          <td>Dance Course</td>
+          <td>History Class</td>
+          <td>
+            <iframe src="https://wikipedia.org" frameborder="0"></iframe>
+          </td>
+          <td>Study hour</td>
+          <td>Free time</td>
+        </tr>
+        <tr>
+          <td>Yoga</td>
+          <td>Chess Club</td>
+          <td>Meet friends</td>
+          <td>Gymnastics</td>
+          <td>Birthday party</td>
+          <td>Fishing trip</td>
+          <td>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TkVJuG8XvRo?si=80B3cFygYEaZcygA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </td>
+        </tr>
+      </table>
+     
+</body>
+</html>
